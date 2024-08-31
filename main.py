@@ -36,10 +36,10 @@ def run_quiz():
             st.write("정답입니다!")
             score += 1
         else:
-            st.write(f"틀렸습니다. 정답은 {q['answer']}입니다.")
+            st.write(f"틀렸습니다. 상심하지 말고 다시 한 번 도전해 보세요!")
         st.write("---")
 
-    st.write(f"퀴즈 종료! 총 점수: {score}/{len(quiz_data)}")
+    st.write(f"퀴즈 종료! 플레이해주셔서 감사합니다! 총 점수: {score}/{len(quiz_data)}")
 
 # 앱 실행
 if __name__ == "__main__":
